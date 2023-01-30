@@ -1,0 +1,24 @@
+[package]
+name = "obfustring"
+version = "0.5.0"
+edition = "2021"
+authors = ["Retoon <14362022+Retoon@users.noreply.github.com>"]
+description = "Procedural macro that obfuscates string literals with RNG at compile time."
+keywords = ["string", "str", "literal", "hide", "obfuscate", "proc_macro", "procmacro"]
+categories = ["obfuscation", "security"]
+license = "MIT"
+repository = "https://github.com/Retoon/obfustring/"
+readme = "README.md"
+
+[badges.maintenance]
+status = "actively-developed"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+syn = "1.0.107"
+quote = "1.0.23"
+
+[lib]
+proc-macro = true
