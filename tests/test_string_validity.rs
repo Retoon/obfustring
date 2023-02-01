@@ -4,7 +4,7 @@ use obfustring::obfustring;
 fn utf8_string_validity() {
     let obfuscated_string = obfustring!("Hello obfustring!");
     let generic_string = String::from("Hello obfustring!");
-    let generic_str = "Hello sec string!";
+    let generic_str = "Hello obfustring!";
 
     assert_eq!(obfuscated_string, generic_string);
     assert_eq!(obfuscated_string, generic_str);
