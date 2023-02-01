@@ -42,7 +42,7 @@ use syn::parse_macro_input;
 ///
 /// # Expansion
 /// `obfustring!("Hello obfustring!");` will expand into something like:
-/// ```
+/// ```ignore
 /// || -> String {
 ///     let sec_slice = [
 ///         151u8, 79u8, 149u8, 48u8, 168u8, 60u8, 139u8, 31u8, 163u8, 52u8, 63u8, 31u8, 153u8,
