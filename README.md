@@ -34,7 +34,7 @@ println!("generic_string: {}", generic_string);
 
 # Disclaimer
 Note that you should **never** have any encryption/api keys or
-sensetive data hardcoded into your program. Though this macro
+sensitive data hardcoded into your program. Though this macro
 would make it harder, it wouldn't absolutely hide it from
 someone looking hard enough. **Stick to environment variables.**
 
